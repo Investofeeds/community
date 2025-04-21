@@ -13,25 +13,13 @@
       text-align: center;
     }
     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
+      display: none;
     }
-    .logo {
-      display: flex;
-      align-items: center;
-      font-size: 24px;
-      font-weight: bold;
-      color: white;
+    .logo-center {
+      margin: 30px auto 0;
     }
-    .logo img {
-      height: 40px;
-      margin-right: 10px;
-    }
-    .menu-icon {
-      font-size: 28px;
-      cursor: pointer;
+    .logo-center img {
+      height: 100px;
     }
     .content {
       padding: 40px 20px;
@@ -77,17 +65,13 @@
     // Auto-redirect after 15 seconds
     setTimeout(() => {
       window.location.href = "https://whatsapp.com/channel/0029Vb60DFI2f3EMrr0TsV28";
-    }, 1000);
+    }, 15000);
   </script>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="logo.png" alt="InvestoFeeds Logo" />
-      INVESTO<span>FEEDS</span>
-    </div>
-    <div class="menu-icon">☰</div>
-  </header>
+  <div class="logo-center">
+    <img src="logo.png" alt="InvestoFeeds Logo" />
+  </div>
 
   <div class="content">
     <h1>Unlock Your Trading Potential With</h1>
